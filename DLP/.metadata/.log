@@ -1,11 +1,11 @@
-!SESSION 2021-05-31 15:57:54.281 -----------------------------------------------
+!SESSION 2021-05-31 16:05:10.933 -----------------------------------------------
 eclipse.buildId=unknown
 java.version=11.0.10
 java.vendor=Azul Systems, Inc.
 BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
-Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data file:/C:/Github/DLP/
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
-!ENTRY org.eclipse.jdt.launching.macosx 4 0 2021-05-31 15:57:54.971
+!ENTRY org.eclipse.jdt.launching.macosx 4 0 2021-05-31 16:05:11.581
 !MESSAGE FrameworkEvent ERROR
 !STACK 0
 org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.macosx [20]
@@ -20,7 +20,7 @@ org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.la
 	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
 	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
 
-!ENTRY org.eclipse.jdt.launching.ui.macosx 4 0 2021-05-31 15:57:54.971
+!ENTRY org.eclipse.jdt.launching.ui.macosx 4 0 2021-05-31 16:05:11.585
 !MESSAGE FrameworkEvent ERROR
 !STACK 0
 org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.ui.macosx [21]
@@ -35,16 +35,16 @@ org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.la
 	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
 	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
 
-!ENTRY org.talend.platform.logging 1 0 2021-05-31 15:57:56.391
-!MESSAGE 2021-05-31 15:57:56,389 INFO  org.talend.utils.StudioKeysFileCheck  - encryptionKeyFilePath: C:\Users\Sundhar\.eclipse\org.talend.rcp.branding.tos.product_7.3.1.20200219_1130_2031205107_win32_win32_x86_64\configuration\studio.keys
+!ENTRY org.talend.platform.logging 1 0 2021-05-31 16:05:13.117
+!MESSAGE 2021-05-31 16:05:13,114 INFO  org.talend.utils.StudioKeysFileCheck  - encryptionKeyFilePath: C:\Users\Sundhar\.eclipse\org.talend.rcp.branding.tos.product_7.3.1.20200219_1130_2031205107_win32_win32_x86_64\configuration\studio.keys
 
 
-!ENTRY org.talend.platform.logging 2 0 2021-05-31 15:58:56.676
-!MESSAGE 2021-05-31 15:58:56,676 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.talend.sdk.component.server.service.ComponentManagerService.init] No system property 'jdk.serialFilter', ensure it is intended
+!ENTRY org.talend.platform.logging 2 0 2021-05-31 16:05:36.182
+!MESSAGE 2021-05-31 16:05:36,182 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.talend.sdk.component.server.service.ComponentManagerService.init] No system property 'jdk.serialFilter', ensure it is intended
 
 
-!ENTRY org.talend.platform.logging 4 0 2021-05-31 15:58:59.267
-!MESSAGE 2021-05-31 15:58:59,266 ERROR org.talend.commons.exception.CommonExceptionHandler  - 
+!ENTRY org.talend.platform.logging 4 0 2021-05-31 16:05:37.166
+!MESSAGE 2021-05-31 16:05:37,166 ERROR org.talend.commons.exception.CommonExceptionHandler  - 
 
 !STACK 0
 java.lang.NullPointerException
@@ -65,60 +65,60 @@ java.lang.NullPointerException
 	at org.talend.repository.ui.login.LoginHelper$2.run(LoginHelper.java:577)
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
 
-!ENTRY org.talend.platform.logging 2 0 2021-05-31 15:59:02.776
-!MESSAGE 2021-05-31 15:59:02,775 WARN  org.talend.designer.codegen.components.model.ComponentsFactory  - The folder "tacokit/components" is missing in the plugin "org.talend.sdk.component.studio-integration".
+!ENTRY org.talend.platform.logging 2 0 2021-05-31 16:05:38.289
+!MESSAGE 2021-05-31 16:05:38,289 WARN  org.talend.designer.codegen.components.model.ComponentsFactory  - The folder "tacokit/components" is missing in the plugin "org.talend.sdk.component.studio-integration".
 
 
-!ENTRY org.talend.platform.logging 2 0 2021-05-31 15:59:03.664
-!MESSAGE 2021-05-31 15:59:03,663 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: esb-java-11-group
+!ENTRY org.talend.platform.logging 2 0 2021-05-31 16:05:38.895
+!MESSAGE 2021-05-31 16:05:38,895 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: esb-java-11-group
 
 
-!ENTRY org.talend.platform.logging 2 0 2021-05-31 15:59:03.816
-!MESSAGE 2021-05-31 15:59:03,816 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: esb-java-11-group
+!ENTRY org.talend.platform.logging 2 0 2021-05-31 16:05:39.015
+!MESSAGE 2021-05-31 16:05:39,014 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: esb-java-11-group
 
 
-!ENTRY org.talend.platform.logging 1 0 2021-05-31 15:59:09.684
-!MESSAGE 2021-05-31 15:59:09,683 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /TEST_ROUTINES/src/main/java
+!ENTRY org.talend.platform.logging 1 0 2021-05-31 16:05:42.777
+!MESSAGE 2021-05-31 16:05:42,777 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /TEST_CONNECTION_ROUTINES/src/main/java
 
 
-!ENTRY org.talend.platform.logging 1 0 2021-05-31 15:59:09.688
-!MESSAGE 2021-05-31 15:59:09,687 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /TEST_ROUTINES/src/main/resources
+!ENTRY org.talend.platform.logging 1 0 2021-05-31 16:05:42.793
+!MESSAGE 2021-05-31 16:05:42,793 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /TEST_CONNECTION_ROUTINES/src/main/resources
 
 
-!ENTRY org.talend.platform.logging 1 0 2021-05-31 15:59:09.691
-!MESSAGE 2021-05-31 15:59:09,691 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /TEST_ROUTINES/src/test/java
+!ENTRY org.talend.platform.logging 1 0 2021-05-31 16:05:42.793
+!MESSAGE 2021-05-31 16:05:42,793 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /TEST_CONNECTION_ROUTINES/src/test/java
 
 
-!ENTRY org.talend.platform.logging 1 0 2021-05-31 15:59:09.693
-!MESSAGE 2021-05-31 15:59:09,693 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /TEST_ROUTINES/src/test/resources
+!ENTRY org.talend.platform.logging 1 0 2021-05-31 16:05:42.793
+!MESSAGE 2021-05-31 16:05:42,793 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /TEST_CONNECTION_ROUTINES/src/test/resources
 
 
-!ENTRY org.talend.platform.logging 1 0 2021-05-31 15:59:11.260
-!MESSAGE 2021-05-31 15:59:11,259 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\Github\DLP\TEST\poms
+!ENTRY org.talend.platform.logging 1 0 2021-05-31 16:05:43.970
+!MESSAGE 2021-05-31 16:05:43,958 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\Github\DLP\TEST_CONNECTION\poms
 
 
-!ENTRY org.talend.platform.logging 1 0 2021-05-31 15:59:11.265
-!MESSAGE 2021-05-31 15:59:11,264 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s C:\Users\Sundhar\.eclipse\org.talend.rcp.branding.tos.product_7.3.1.20200219_1130_2031205107_win32_win32_x86_64\configuration\maven_user_settings.xml install -llr -N -Dci.builder.skip=true
+!ENTRY org.talend.platform.logging 1 0 2021-05-31 16:05:43.973
+!MESSAGE 2021-05-31 16:05:43,973 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s C:\Users\Sundhar\.eclipse\org.talend.rcp.branding.tos.product_7.3.1.20200219_1130_2031205107_win32_win32_x86_64\configuration\maven_user_settings.xml install -llr -N -Dci.builder.skip=true
 
 
-!ENTRY org.talend.platform.logging 1 0 2021-05-31 15:59:16.827
-!MESSAGE 2021-05-31 15:59:16,827 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\Github\DLP\TEST\poms\code\routines
+!ENTRY org.talend.platform.logging 1 0 2021-05-31 16:05:47.504
+!MESSAGE 2021-05-31 16:05:47,504 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\Github\DLP\TEST_CONNECTION\poms\code\routines
 
 
-!ENTRY org.talend.platform.logging 1 0 2021-05-31 15:59:16.830
-!MESSAGE 2021-05-31 15:59:16,830 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s C:\Users\Sundhar\.eclipse\org.talend.rcp.branding.tos.product_7.3.1.20200219_1130_2031205107_win32_win32_x86_64\configuration\maven_user_settings.xml install -llr -Dmaven.main.skip=true -Dci.builder.skip=true
+!ENTRY org.talend.platform.logging 1 0 2021-05-31 16:05:47.504
+!MESSAGE 2021-05-31 16:05:47,504 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s C:\Users\Sundhar\.eclipse\org.talend.rcp.branding.tos.product_7.3.1.20200219_1130_2031205107_win32_win32_x86_64\configuration\maven_user_settings.xml install -llr -Dmaven.main.skip=true -Dci.builder.skip=true
 
 
-!ENTRY org.talend.platform.logging 1 0 2021-05-31 15:59:19.791
-!MESSAGE 2021-05-31 15:59:19,790 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - user@talend.com logged on Test
+!ENTRY org.talend.platform.logging 1 0 2021-05-31 16:05:49.877
+!MESSAGE 2021-05-31 16:05:49,877 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - user@talend.com logged on Test_Connection
 
 
-!ENTRY org.talend.platform.logging 1 0 2021-05-31 15:59:20.640
-!MESSAGE 2021-05-31 15:59:20,640 INFO  org.talend.core.repository.logintask.ReadOnlyProjectConfirm  - ReadOnly confirm
+!ENTRY org.talend.platform.logging 1 0 2021-05-31 16:05:50.547
+!MESSAGE 2021-05-31 16:05:50,547 INFO  org.talend.core.repository.logintask.ReadOnlyProjectConfirm  - ReadOnly confirm
 
 
-!ENTRY org.talend.platform.logging 4 0 2021-05-31 15:59:20.677
-!MESSAGE 2021-05-31 15:59:20,677 ERROR org.talend.commons.exception.CommonExceptionHandler  - 
+!ENTRY org.talend.platform.logging 4 0 2021-05-31 16:05:50.600
+!MESSAGE 2021-05-31 16:05:50,600 ERROR org.talend.commons.exception.CommonExceptionHandler  - 
 
 !STACK 0
 java.lang.NullPointerException
@@ -134,20 +134,20 @@ java.lang.NullPointerException
 	at org.talend.designer.codegen.model.CodeGeneratorEmittersPoolFactory$JobRunnable.doRun(CodeGeneratorEmittersPoolFactory.java:165)
 	at org.talend.designer.codegen.model.CodeGeneratorEmittersPoolFactory$JobRunnable.run(CodeGeneratorEmittersPoolFactory.java:131)
 
-!ENTRY org.talend.platform.logging 2 0 2021-05-31 15:59:20.855
-!MESSAGE 2021-05-31 15:59:20,854 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: esb-java-11-group
+!ENTRY org.talend.platform.logging 2 0 2021-05-31 16:05:50.985
+!MESSAGE 2021-05-31 16:05:50,985 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: esb-java-11-group
 
 
-!ENTRY org.talend.platform.logging 2 0 2021-05-31 15:59:20.890
-!MESSAGE 2021-05-31 15:59:20,889 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: esb-java-11-group
+!ENTRY org.talend.platform.logging 2 0 2021-05-31 16:05:51.016
+!MESSAGE 2021-05-31 16:05:51,016 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: esb-java-11-group
 
 
-!ENTRY org.talend.platform.logging 2 0 2021-05-31 15:59:21.874
-!MESSAGE 2021-05-31 15:59:21,873 WARN  org.talend.designer.codegen.components.model.ComponentsFactory  - The folder "tacokit/components" is missing in the plugin "org.talend.sdk.component.studio-integration".
+!ENTRY org.talend.platform.logging 2 0 2021-05-31 16:05:51.664
+!MESSAGE 2021-05-31 16:05:51,664 WARN  org.talend.designer.codegen.components.model.ComponentsFactory  - The folder "tacokit/components" is missing in the plugin "org.talend.sdk.component.studio-integration".
 
 
-!ENTRY org.talend.platform.logging 4 0 2021-05-31 15:59:33.930
-!MESSAGE 2021-05-31 15:59:33,930 ERROR org.talend.commons.exception.CommonExceptionHandler  - C:\Program Files\TOS_DI-Win32-20200219_1130-V7.3.1\configuration\library_data.index (Access is denied)
+!ENTRY org.talend.platform.logging 4 0 2021-05-31 16:06:03.943
+!MESSAGE 2021-05-31 16:06:03,943 ERROR org.talend.commons.exception.CommonExceptionHandler  - C:\Program Files\TOS_DI-Win32-20200219_1130-V7.3.1\configuration\library_data.index (Access is denied)
 
 !STACK 0
 java.io.FileNotFoundException: C:\Program Files\TOS_DI-Win32-20200219_1130-V7.3.1\configuration\library_data.index (Access is denied)
@@ -166,60 +166,25 @@ java.io.FileNotFoundException: C:\Program Files\TOS_DI-Win32-20200219_1130-V7.3.
 	at org.talend.updates.runtime.ui.CheckExtraFeaturesToInstallJob.run(CheckExtraFeaturesToInstallJob.java:68)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.talend.platform.logging 1 0 2021-05-31 16:00:21.956
-!MESSAGE 2021-05-31 16:00:21,956 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/TEST_ROUTINES: org.example.test.code:routines:7.3.1 with classifier  to /TEST_ROUTINES/target/classes
+!ENTRY org.talend.platform.logging 1 0 2021-05-31 16:06:16.759
+!MESSAGE 2021-05-31 16:06:16,758 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/TEST_CONNECTION_ROUTINES: org.example.test_connection.code:routines:7.3.1 with classifier  to /TEST_CONNECTION_ROUTINES/target/classes
 
 
-!ENTRY org.talend.platform.logging 1 0 2021-05-31 16:00:22.029
-!MESSAGE 2021-05-31 16:00:22,028 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /TEST_ONBOARDINGDEMOJOB_0.1/src/main/java
+!ENTRY org.talend.platform.logging 1 0 2021-05-31 16:06:16.829
+!MESSAGE 2021-05-31 16:06:16,828 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /TEST_CONNECTION_DEMO_0.1/src/main/java
 
 
-!ENTRY org.talend.platform.logging 1 0 2021-05-31 16:00:22.031
-!MESSAGE 2021-05-31 16:00:22,031 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /TEST_ONBOARDINGDEMOJOB_0.1/src/main/resources
+!ENTRY org.talend.platform.logging 1 0 2021-05-31 16:06:16.829
+!MESSAGE 2021-05-31 16:06:16,829 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /TEST_CONNECTION_DEMO_0.1/src/main/resources
 
 
-!ENTRY org.talend.platform.logging 1 0 2021-05-31 16:00:22.046
-!MESSAGE 2021-05-31 16:00:22,046 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /TEST_ONBOARDINGDEMOJOB_0.1/src/test/java
+!ENTRY org.talend.platform.logging 1 0 2021-05-31 16:06:16.836
+!MESSAGE 2021-05-31 16:06:16,836 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /TEST_CONNECTION_DEMO_0.1/src/test/java
 
 
-!ENTRY org.talend.platform.logging 1 0 2021-05-31 16:00:22.049
-!MESSAGE 2021-05-31 16:00:22,049 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /TEST_ONBOARDINGDEMOJOB_0.1/src/test/resources
+!ENTRY org.talend.platform.logging 1 0 2021-05-31 16:06:16.837
+!MESSAGE 2021-05-31 16:06:16,837 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /TEST_CONNECTION_DEMO_0.1/src/test/resources
 
 
-!ENTRY org.eclipse.ui 4 0 2021-05-31 16:00:25.654
-!MESSAGE Unhandled event loop exception
-!STACK 0
-org.eclipse.swt.SWTException: Widget is disposed
-	at org.eclipse.swt.SWT.error(SWT.java:4595)
-	at org.eclipse.swt.SWT.error(SWT.java:4510)
-	at org.eclipse.swt.SWT.error(SWT.java:4481)
-	at org.eclipse.swt.widgets.Widget.error(Widget.java:451)
-	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:350)
-	at org.eclipse.swt.widgets.Scrollable.getClientArea(Scrollable.java:208)
-	at org.talend.presentation.onboarding.ui.shells.OnBoardingShell.refresh(OnBoardingShell.java:211)
-	at org.talend.presentation.onboarding.ui.shells.OnBoardingShell$4.run(OnBoardingShell.java:200)
-	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
-	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
-	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
-	at org.talend.rcp.intro.Application.start(Application.java:280)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+!ENTRY org.eclipse.core.resources 2 10035 2021-05-31 16:06:32.328
+!MESSAGE The workspace will exit with unsaved changes in this session.
